@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ecoproject/static/css/main.681cd2bd.css",
+    "main.js": "/Ecoproject/static/js/main.05a2819a.js",
+    "static/js/787.6b963b8a.chunk.js": "/Ecoproject/static/js/787.6b963b8a.chunk.js",
+    "static/media/smallLogo.png": "/Ecoproject/static/media/smallLogo.869e76514752953346fe.png",
+    "index.html": "/Ecoproject/index.html",
+    "main.681cd2bd.css.map": "/Ecoproject/static/css/main.681cd2bd.css.map",
+    "main.05a2819a.js.map": "/Ecoproject/static/js/main.05a2819a.js.map",
+    "787.6b963b8a.chunk.js.map": "/Ecoproject/static/js/787.6b963b8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.681cd2bd.css",
+    "static/js/main.05a2819a.js"
+  ]
+}
