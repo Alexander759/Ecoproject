@@ -1,0 +1,57 @@
+.completed-projects {
+    background: linear-gradient(#FFFFFF, #d5d0e6);
+    height: fit-content;
+
+}
+
+.completed-projects__header {
+    padding-bottom: 0.5rem;
+}
+
+.completed-projects__heading {
+    color: #133c55;
+}
+
+.completed-projects__hr {
+    border: 1px solid #133c55;
+}
+
+.table-holder {
+    padding: 2rem;
+
+    overflow-x: auto;
+}
+
+
+.table {
+    background-color: #133c55;
+}
+
+.table, .th, .td {
+    border: none;
+}
+
+.th, .td {
+    padding: 2rem 1rem;
+}
+
+.td {
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+}
+
+.first {
+    color: #FFFFFF !important;
+    background-color: #0b7189 !important;
+}
+
+.even {
+    color: #000000;
+    background-color: #b8e6be;
+}
+
+.odd {
+    color: #000000;;
+    background-color: #FFFFFF;
+}

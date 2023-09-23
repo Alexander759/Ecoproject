@@ -1,0 +1,182 @@
+.biocon-introduction {
+    min-height: 100vh;
+    background: linear-gradient(#FFFFFF, #a1eaa1);
+}
+
+.biocon-introduction__main-content {
+    width: 100%;
+    padding-bottom: 2rem;
+    color: #1c7c54;
+    font-weight: 500;
+
+}
+
+.biocon-introduction__header {
+    width: 100%;
+}
+
+.biocon-introduction__heading {
+    color: #1c7c54;
+}
+
+.biocon-introduction__hr{
+    border: 1px solid #1c7c54;
+}
+
+.biocon-introduction__text {
+    padding: 0 2rem;
+}
+
+.biocon-introduction__img-holder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biocon-introduction__img {
+    width: 70%;
+    border: 3px solid #1c7c54;
+}
+
+
+.biocon-advantages {
+    min-height: 105vh;
+
+    background: linear-gradient(#a2c5ac, #9db5b2);
+}
+
+.biocon-advantages__header {
+    width: 100%;
+}
+
+.biocon-advantages__heading {
+    text-align: center;
+    color: #226f54;
+}
+
+.biocon-advantages__hr {
+    border: 1px solid #226f54;
+}
+
+.biocon-advantages__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 3rem;
+}
+
+.biocon-advantages__text {
+    width: 100%;
+    color: #226f54;
+}
+
+.biocon-p-and-n-section {
+    min-height: 105vh;
+
+    background: linear-gradient(#9EE37D, #82d848);
+
+    padding: 2rem 0;
+}
+
+.biocon-p-and-n-section__heading {
+
+    color: #435058;
+}
+
+.biocon-p-and-n-section__hr {
+    border: 1px solid #435058;
+}
+
+.biocon-p-and-n-section__main {
+    display: grid;
+}
+
+.biocon-p-and-n-section__text {
+    padding: 0 2rem;
+    color: #435058;
+
+}
+
+.biocon-p-and-n-section__img-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.biocon-p-and-n-section__img {
+    width: 70%;
+    border: 3px solid #435058;
+}
+
+.mbbr-section {
+    min-height: 100vh;
+    background: linear-gradient(#79e97b, #a7ebb1);
+}
+
+.mbbr-section__heading {
+    color: #3A405A;
+}
+
+.mbbr-section__hr {
+    border: 1px solid #3A405A;
+}
+
+.mbbr-section__main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding:  2rem;
+
+}
+
+.mbbr-section__text{
+    color: #3A405A;
+
+}
+
+.mbbr-advantages-section {
+    min-height: 100vh;
+    background: linear-gradient(#a5d4ca, #71beaf);
+}
+
+.mbbr-advantages-section__heading {
+    color: #042a2b;
+}
+
+.mbbr-advantages-section__hr {
+    border: 1px solid #042a2b;
+}
+
+
+.mbbr-advantages-section__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mbbr-advantages-section__text {
+    color: #024042;
+}
+
+@media only screen and (max-width: 992px) {
+    .biocon-introduction__img  {
+        width: 95%;
+    }
+    
+    .biocon-advantages__main{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .biocon-p-and-n-section__img  {
+        width: 95%;
+    }
+    .mbbr-section__main {
+        grid-template-columns: auto;
+    }
+
+    .mbbr-advantages-section__main {
+        grid-template-columns: auto;
+    }
+}

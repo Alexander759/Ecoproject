@@ -1,0 +1,19 @@
+.about {
+    background: linear-gradient(#FFFFFF, #d0ffd6);
+}
+
+.about__heading {
+    color: #206c6c;
+}
+
+.about__hr {
+    border:1px solid #206c6c;
+}
+
+.about__main {
+    padding: 1rem 2rem;
+
+    font-weight: 500;
+    color: #247B7B;
+}
+

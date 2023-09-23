@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.heading-hr {
+    width: 100%;
+}
+

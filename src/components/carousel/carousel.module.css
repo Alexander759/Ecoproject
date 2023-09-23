@@ -1,0 +1,124 @@
+.carousel {
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+
+    color: white;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.carousel__slides-holder {   
+    display: flex;
+
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+
+    position: relative; 
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+   
+    padding: 0;
+
+    display: none;
+}
+
+.active {
+    display:block;
+    position: static;
+}
+
+.appear-right {
+    animation-name: appear-right;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.disappear-left {
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    position: absolute;
+    animation-name: disappear-left;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.appear-left {
+    animation-name: appear-left;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.disappear-right {
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    position: absolute;
+
+    animation-name: disappear-right;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.carousel__controllers-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    padding: 0 2rem;
+
+    position: absolute;
+    top: 0;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+}
+
+.carousel__next {
+    margin-left: auto;
+}
+
+.carousel__next, .carousel__prev {
+    cursor: pointer;
+}
+
+.carousel__next:hover, .carousel__prev:hover {
+    color: rgba(0, 0, 0) ;
+}
+
+@keyframes appear-right {
+    from {transform:translate(100%, 0);}
+    to {transform: translate(0, 0);}
+}
+
+@keyframes disappear-left {
+    from {transform:translate(0, 0);}
+    to {transform: translate(-100%, 0);}
+}
+
+@keyframes appear-left {
+    from {transform:translate(-100%, 0);}
+    to {transform: translate(0, 0);}
+}
+
+@keyframes disappear-right {
+    from {transform:translate(0, 0);}
+    to {transform: translate(100%, 0);}
+}

@@ -1,0 +1,30 @@
+.cleaning-waters {
+    min-height: 100vh;
+
+    background: linear-gradient(#FFFFFF, #a5eaad);
+}
+
+.cleaning-waters__heading {
+    color: #2a4747;
+}
+
+.cleaning-waters__hr {
+    border: 1px solid #2a4747;
+}
+
+.cleaning-waters__main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cleaning-waters__text {
+    padding: 0 2rem;
+    color: #2a4747;
+}
+
+@media only screen and (max-width: 992px) {
+    .cleaning-waters__main {
+        grid-template-columns: auto;
+    }
+}
