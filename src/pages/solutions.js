@@ -204,7 +204,7 @@ const Solutions = () => {
 					</div>
 
 					<div className={styles["biocon-p-and-n-section__img-holder"]}>
-						<img className={styles["biocon-p-and-n-section__img"]} src="./images/BioconPNRemovalStructure.jpg" alt="Biocon P and N removal structure" />
+						<img className={styles["biocon-p-and-n-section__img"]} src="./images/bioconPNRemovalStructure.jpg" alt="Biocon P and N removal structure" />
 					</div>
 				</div>
 			</section>
