@@ -1,0 +1,202 @@
+.mbr-technology-section {
+    min-height: 100vh;
+    background:linear-gradient(#FFFFFF, #89FFEB);
+    color: #396724;
+}
+
+.mbr-technology-section__heading {
+    color: #396724;
+}
+
+.mbr-technology-section__hr {
+    border: 1px solid rgb(47, 86, 28);
+}
+
+.mbr-technology-section__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem;
+}
+
+.mbr-technology-section__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mbr-advantages-section {
+    min-height: 100vh;
+    color: #5D4A66;
+    background: linear-gradient(#A7E2E3,#80CFA9);
+}
+
+.mbr-advantages-section__heading {
+    color: #5D4A66;
+}
+
+.mbr-advantages-section__hr {
+    border: 1px solid #5D4A66;
+}
+
+.mbr-advantages-section__main {
+    color: #5D4A66;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mbr-advantages-section__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: -1;
+}
+
+.mbbr-section {
+    min-height: 100vh;
+    background: linear-gradient(#79e97b, #a7ebb1);
+}
+
+.mbbr-section__heading {
+    color: #3A405A;
+}
+
+.mbbr-section__hr {
+    border: 1px solid #3A405A;
+}
+
+.mbbr-section__main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding:  2rem;
+}
+
+.mbbr-section__text{
+    color: #3A405A;
+}
+
+.mbbr-section-imgs-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mbbr-advantages-section {
+    min-height: 100vh;
+    background: linear-gradient(#a5d4ca, #71beaf);
+}
+
+.mbbr-advantages-section__heading {
+    color: #042a2b;
+}
+
+.mbbr-advantages-section__hr {
+    border: 1px solid #042a2b;
+}
+
+
+.mbbr-advantages-section__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 2rem;
+}
+
+.mbbr-advantages-section__text {
+    color: #024042;
+}
+
+.mbbr-advantages-section__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: -1;
+}
+
+.application-in-industries-section__faq-elements-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 5%;
+    gap: 1rem;
+}
+
+.mbr-and-mbbr-section {
+    min-height: 100vh;
+    background: linear-gradient(#50f0bd, #abecee);
+}
+
+.mbr-and-mbbr-section__heading {
+    color: #01425c;
+}
+
+.mbr-and-mbbr-section__hr {
+    border: 1px solid #01425c;
+}
+
+.mbr-and-mbbr-section__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 2rem;
+}
+
+.mbr-and-mbbr-section__text {
+    color: #05668D;
+}
+
+.mbr-and-mbbr-section__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application-in-industries-section {
+    min-height: 100vh;
+    background: linear-gradient(#a1d7ed,#5cbde3);
+    color: #1D3461;
+}
+
+.application-in-industries-section__heading {
+    color: #17294c;
+}
+
+.application-in-industries-section__hr {
+    border: 1px solid #17294c;
+}
+
+.application-in-industries-section__faq {
+    border-bottom: 1px solid #17294c;
+}
+
+@media only screen and (max-width: 992px) {
+    .mbr-technology-section__main {
+        grid-template-columns: auto;
+    }
+        
+    .mbr-advantages-section__main {
+        grid-template-columns: auto
+    }
+
+    .mbr-advantages-section__gallery-holder {
+        order: 1;
+    }
+
+    .mbbr-section__main {
+        grid-template-columns: auto;
+    }
+
+    .mbbr-advantages-section__main {
+        grid-template-columns: auto;
+    }
+
+    .mbbr-advantages-section__gallery-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+    
+    .mbr-and-mbbr-section__main {
+        grid-template-columns: auto;
+    }
+}

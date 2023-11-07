@@ -704,7 +704,7 @@ const CompletedProjects = () => {
 
             <div className={styles["table-holder"]}>
                 <table className={styles["table"]}>
-                    <thead>
+                    <thead className={styles["thead"]}>
                         <tr className={`${styles["tr"]} ${styles["first"]} ${styles["odd"]}`}>
                             <th className={styles["th"]}>№</th>
                             <th className={styles["th"]}>Наименование на проект/обект и видове строително-монтажни работи</th>

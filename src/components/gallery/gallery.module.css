@@ -28,7 +28,7 @@
 .gallery__img-holder {
     cursor: pointer;
     aspect-ratio: 3/2;
-    width: 33%;
+    width: 25%;
     margin: 0 0.5rem;
 }
 

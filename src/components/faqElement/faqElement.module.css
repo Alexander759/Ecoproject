@@ -1,0 +1,43 @@
+.faq-element {
+    border-bottom: 1px solid black;
+}
+
+.faq-element__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-element__question {
+    color: inherit;
+}
+
+.faq-element__answer {
+    max-height: 0;
+    overflow-y: hidden;
+    
+    transition: all 1.5s ease-in-out;
+}
+
+.faq-element__svg {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    min-width: 2rem;
+    transition: all 1s ease-in-out;
+}
+
+.faq-element__svg-active {
+    transform: rotate(180deg);
+}
+
+.active {
+    height: fit-content;
+    max-height: 1000rem;
+    overflow-y: hidden;
+}
+
+.faq-element__btn {
+    cursor: pointer;
+}

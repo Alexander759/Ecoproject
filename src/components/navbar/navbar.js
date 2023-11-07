@@ -52,6 +52,10 @@ const Navbar = (props) => {
 					Услуги
 				</NavLink>
 
+				<NavLink className={styles["navbar__link"]} to="/MBRAndMBBR">
+					MBR & MBBR
+				</NavLink>
+
 				<NavLink className={styles["navbar__link"]} to="/about">
 					За нас
 				</NavLink>

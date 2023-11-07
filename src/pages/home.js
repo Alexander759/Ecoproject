@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import Carousel from '../components/carousel/carousel';
-import styles from './css/index.module.css'
+import styles from './css/home.module.css'
 import Navbar from '../components/navbar/navbar';
 import Heading from '../components/heading/heading';
 import Footer from '../components/footer/footer';
@@ -37,11 +37,11 @@ const Home = () => {
 		<main className={styles["main-content"]}>
 			<Carousel 
 			className = {styles.carousel} namesAndTitlesOfImages={[
-			{nameOfImage: "1.jpg", title: "Работейки за опазването на природата, работим за бъдещето на всички нас!"}, 
+			{nameOfImage: "5.jpg", title: "Работейки за опазването на природата, работим за бъдещето на всички нас!"},
+			{nameOfImage: "4.jpg", title: "Нови технологии за опазване на природата!"}, 
 			{nameOfImage: "2.jpg", title: "Модерни решения за пречистване на водите!"}, 
 			{nameOfImage: "3.jpg", title: "Екологични услуги за вашата компания"}, 
-			{nameOfImage: "4.jpg", title: "Нови технологии за опазване на природата!"}, 
-			{nameOfImage: "5.jpg", title: "Екопроект – за по-добро бъдеще!"}]}/>
+			]}/>
 			
 			<section className={styles["introductory-section"]}>
 				<div className={styles["introductory-section__description"]}>
@@ -67,10 +67,6 @@ const Home = () => {
 			</section>
 
 			<section className={styles["solutions-section"]}>
-				<div className={styles["solutions-section__img-holder"]}>
-					<img className={styles["solutions-section__img"]} src='./images/6.jpg' alt='image of section'/>
-				</div>
-
 				<div className={styles["solutions-section__description"]}>
 					<Heading
 					headingClass={styles["solutions-section__heading"]}
@@ -90,8 +86,33 @@ const Home = () => {
 					<NavLink to='/solutions' className={`${styles["solutions-section__btn"]} ${styles["btn"]}`}>Решения ➔</NavLink>
 				</div>
 				
+				<div className={styles["solutions-section__img-holder"]}>
+					<img className={styles["solutions-section__img"]} src='./images/6.jpg' alt='image of section'/>
+				</div>
 			</section>
 
+			<section className={styles["mbr-mbbr-section"]}>
+				<div className={styles["mbr-mbbr-section__description"]}>
+					<Heading
+					headingClass={styles["mbr-mbbr-section__heading"]}
+					hrClass={styles["mbr-mbbr-section__hr"]}
+					title="MBR и MBBR технологии"
+					/>
+					<p>
+						<span className={styles["marked"]}>MBR</span> (Membrane Bioreactor) и <span className={styles["marked"]}>MBBR</span> (Moving Bed Biofilm Reactor) технологиите са нашите предложения към вас за
+						пречистване на водите. Те представляват високотехнологични методи за пречистване на водите. <span className={styles["marked"]}>MBR</span> e технологично
+						решение, което се използва за обработка на отпадни води, като съчетава биологичен процес за разграждане на
+						замърсители с употребата на мембрани за филтрация. <span className={styles["marked"]}>MBBR</span> системите използват специални носители, 
+						на които микроорганизмите се закрепват, която разгражда органичните замърсители във водата. Може да научите
+						повече в нашата секция за <span className={styles["marked"]}>MBR</span> и <span className={styles["marked"]}>MBBR</span>.
+					</p>
+
+					<NavLink to='./MBRAndMBBR' className={`${styles["btn"]} ${styles["mbr-mbbr-section__btn"]}`}>MBR и MBBR технология ➔</NavLink>
+				</div>
+				<div className={styles["mbr-mbbr-section__img-holder"]}>
+					<img className={styles["mbr-mbbr-section__img"]} src='./images/19.jpg' alt="image of a section" />
+				</div>
+			</section>
 			<section className={styles["services-section"]}>
 				<div className={styles["services-section__description"]}>
 					<Heading
@@ -116,10 +137,6 @@ const Home = () => {
 			</section>
 
 			<section className={styles["completed-projects-section"]}>
-				<div className={styles["completed-projects-section__img-holder"]}>
-					<img className={styles["completed-projects-section__img"]} src='./images/14.jpg' alt='image of a section'/>
-				</div>
-
 				<div className={styles["completed-projects-section__description"]}>
 					<Heading
 					headingClass={styles["completed-projects-section__heading"]}
@@ -137,6 +154,9 @@ const Home = () => {
 					<NavLink to='./completedProjects' className={`${styles["completed-projects-section__btn"]} ${styles["btn"]}`}>Завършени проекти ➔</NavLink>
 				</div>
 				
+				<div className={styles["completed-projects-section__img-holder"]}>
+					<img className={styles["completed-projects-section__img"]} src='./images/14.jpg' alt='image of a section'/>
+				</div>
 			</section>
 		</main>
 		<Footer />

@@ -113,8 +113,9 @@ const Solutions = () => {
 						</ul>
 					</div>
 
-
-					<Gallery imgNames={["7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg"]}  />
+					<div className={styles["biocon-advantages__gallery-holder"]}>
+						<Gallery imgNames={["27.jpg", "28.jpg", "29.jpg"]} />
+					</div>
 
 				</div>
 
@@ -195,10 +196,10 @@ const Solutions = () => {
 								</li>
 
 								<li>
-									<TermWithDefinition term="N" definition="Азот" /> oбщ &lt; 15  мг/л
+									<TermWithDefinition term="N" definition="Азот" /> oбщ &lt; 15мг/л
 								</li>
 								<li>
-									<TermWithDefinition term="P" definition="Фосфор" /> oбщ &lt; 2  мг/л
+									<TermWithDefinition term="P" definition="Фосфор" /> oбщ &lt; 2мг/л
 								</li>
 						</ol>
 					</div>
@@ -209,63 +210,29 @@ const Solutions = () => {
 				</div>
 			</section>
 
-			<section className={styles["mbbr-section"]}>
-
+			<section className={styles["advantages-biocon-p-and-n-section"]}>
 				<Heading
-				headingClass={styles["mbbr-section__heading"]}
-				hrClass={styles["mbbr-section__hr"]}
-				title="Пречистване на отпадъчни води с MBBR технология" />
-				
-				<div className={styles["mbbr-section__main"]}>
-					<div className={styles["mbbr-section__text"]}>
-						<p>
-							Biocon станции с MBBR представляват усъвършенстване на стандартния процес на пречистване предлаган от нашите 
-							модулни пречиствателни станции Biocon Standart  и Biocon P&N Removal. MBBR (Moving Bed Biofilm Reactor) 
-							представлява биобасейн с подвижни бионосители. Бионосителите са малки специлно направени съоражения, които 
-							служат като ферма за микроорганизми. Така популацията на биорганизмите в биобасейнът се увеличава значително и 
-							е по-стабилна. Това насищане с бактерии в биобасейна дава възможност за висока степен на пречистване на отпадната 
-							вода и голяма стабилност на пречиствателния процес. MBBR технологията се предлага в контейнер или съоръжение изградено от бетон.
-							Предлага се и в двата варианта:
-						</p>
-						<ul>
-							<li>Biocon MBBR Standart – За стандартно пречистване на отпадните води без отстраняване на азот и фосфор</li>
-							<li>Biocon MBBR P&N Removal – За пречистване на отпадни води с отстраняване на азот и фосфор.</li>
-						</ul>
-					</div>
-
-					<div className={styles["mbbr-section-imgs-holder"]} >
-						<Gallery imgNames ={["15.jpg","16.jpg","17.jpg","18.jpg"]} />
-					</div>
-				</div>
-			</section>
-
-			<section className={styles["mbbr-advantages-section"]}>
-				<Heading
-				title="Предимства на MBBR технологията"
-				headingClass={styles["mbbr-advantages-section__heading"]}
-				hrClass={styles["mbbr-advantages-section__hr"]}
+				headingClass={styles["advantages-biocon-p-and-n-section__heading"]}
+				hrClass={styles["advantages-biocon-p-and-n-section__hr"]}
+				title="Предимства на Biocon – с пречистване на азот и фосфор"
 				/>
 
-				<div className={styles["mbbr-advantages-section__main"]}>
-					<div className={styles["mbbr-advantages-section__text"]}>
+				<div className={styles["advantages-biocon-p-and-n-section__main"]}>
+					<div>
 						<ul>
-							<li>Ефективен пречиствателен процес с до 5 пъти по-висока степен на пречистване в сравнение с традиционните методи</li>
-							<li>Многократно намаляване на обема на пречиствателното съоръжение</li>
-							<li>Пречиствателният капацитет на съоръжението може да се увеличи лесно, просто с добавянето на допълнително количество био носител.</li>
-							<li>Устойчив пречиствателен процес, поемащ ударни натоварвания на отпадната вода</li>
-							<li>Енергоспестяващ процес на пречистване</li>
-							<li>Възможност за отстраняване на азот и фосфор</li>
-							<li>Устойчивост към натоварване</li>
-							<li>Изисква по-малко поддръжка</li>
-							<li>Работи по-бързо и може да преработи повече вода</li>
+							<li>Висока степен на пречистване</li>
+							<li>Компактни размери на съоръжението</li>
+							<li>Подобрено пречистване на водата</li>
+							<li>Фосфорно отстраняване</li>
+							<li>Денитрификация и нитрификация</li>
+							<li>Подобрени параметри на пречистената вода</li>
 						</ul>
 					</div>
 
+					<div className={styles["advantages-biocon-p-and-n-section__gallery-holder"]}>
 
-					<div className="mbbr-advantages-section__imgs-holder">
-							<Gallery imgNames ={["19.jpg","20.jpg","21.jpg","22.jpg"]} />
+						<Gallery imgNames={["7.jpg", "8.jpg", "9.jpg"]}  />
 					</div>
-
 				</div>
 			</section>
 		</main>

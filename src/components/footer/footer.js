@@ -30,7 +30,7 @@ const Footer = () => {
 
                         <p className={styles["footer__para"]}>
                             Тел. <a className={styles["footer__phone-link"]} href="tel:+359899895162">+359 89 989 5162;</a>&nbsp;
-                            <a  className={styles["footer__phone-link"]}href="tel:+359896630990">+359 89 663 0990;</a>
+                            <a  className={styles["footer__phone-link"]}href="tel:+359896630990">+359 89 663 0990</a>
                         </p>
                     </div>
 
@@ -42,7 +42,7 @@ const Footer = () => {
 
                         <p className={styles["footer__para"]}>
                             Тел. <a  className={styles["footer__phone-link"]} href="+359892444230">+359 89 244 4230;</a>&nbsp;
-                            <a  className={styles["footer__phone-link"]} href="+359898489395">+359 89 848 9395</a>;
+                            <a  className={styles["footer__phone-link"]} href="+359898489395">+359 89 848 9395</a>
                         </p>
                     </div>
                 </div>

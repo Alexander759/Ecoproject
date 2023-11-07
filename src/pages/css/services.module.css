@@ -16,15 +16,69 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
 }
 
 .cleaning-waters__text {
-    padding: 0 2rem;
     color: #2a4747;
+}
+
+.cleaning-waters__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finishing-water-purification-section {
+    min-height: 100vh;
+    background: linear-gradient(#AFD2E9, #B4D4EE);
+    color: #16697A;
+}
+
+.finishing-water-purification-section__heading {
+    color: #16697A;
+}
+
+.finishing-water-purification-section__hr {
+    border: 1px solid #16697A;
+}
+
+.finishing-water-purification-section__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+}
+
+.renewable-energy-section {
+    min-height: 100vh;
+    background: linear-gradient(#80CED7, #63C7B2);
+}
+
+.renewable-energy-section__heading {
+    color: #263D42;
+}
+
+.renewable-energy-section__hr {
+    border: 1px solid #263D42;
+}
+
+.renewable-energy-section__main {
+    color: #263D42;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
 }
 
 @media only screen and (max-width: 992px) {
     .cleaning-waters__main {
+        grid-template-columns: auto;
+    }
+
+    .finishing-water-purification-section__main {
+        grid-template-columns: auto;
+    }
+
+    .renewable-energy-section__main {
         grid-template-columns: auto;
     }
 }

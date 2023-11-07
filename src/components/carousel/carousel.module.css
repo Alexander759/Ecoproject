@@ -97,10 +97,12 @@
 
 .carousel__next, .carousel__prev {
     cursor: pointer;
+    padding: 1rem;
+    user-select: none;
 }
 
 .carousel__next:hover, .carousel__prev:hover {
-    color: rgba(0, 0, 0) ;
+    background: rgba(0, 0, 0, 0.4) ;
 }
 
 @keyframes appear-right {
@@ -121,4 +123,10 @@
 @keyframes disappear-right {
     from {transform:translate(0, 0);}
     to {transform: translate(100%, 0);}
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel__controllers-holder {
+        padding: 0 0.5rem;
+    }
 }

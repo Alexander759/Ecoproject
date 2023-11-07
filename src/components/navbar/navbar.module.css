@@ -1,10 +1,9 @@
 .navbar {
-
     --color-menu-btn: black;
     --time-appear-menu: 1s;
 
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 7fr;
 
     color: black;
 
@@ -12,15 +11,20 @@
 
     transition: all 1s ease;
 
+    width: 100%;
+
+    min-height: 10vh;
 }
 
 .navbar__logo-holder {
     width: 100%;
-    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar__logo {
-    width: 50%;
+    width: 9em;
 }
 
 .navbar__toggle-menu {
@@ -28,6 +32,7 @@
     padding: 0;
     background-color: transparent;
     border: none;
+    
 
     height: 100%;
     width: 2rem;
@@ -64,7 +69,7 @@
 .navbar__menu {
     display: flex;
     
-    margin-right: 10rem;
+    margin-right: 2rem;
     margin-left: auto;
 
 }
@@ -85,10 +90,22 @@
 }
 
 .visible {
-    display: block !important;
-
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    
     animation-name: appear;
     animation-duration: var(--time-appear-menu);
+}
+
+.disappear {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+
+    animation-name: disappear;
+    animation-duration: var(--time-appear-menu);
+    animation-fill-mode: forwards;
 }
 
 @keyframes appear {
@@ -102,19 +119,10 @@
     to {transform: translate(100%, 0);}
 }
 
-.disappear {
-    display: block !important;
-
-
-    animation-name: disappear;
-    animation-duration: var(--time-appear-menu);
-    animation-fill-mode: forwards;
-}
-
 @media only screen and (max-width: 992px) {
 
     .navbar {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 2fr;
         position: sticky;
         top: 0px;
 
@@ -131,10 +139,14 @@
     .navbar__menu {
         display: none;
 
+        
+
         grid-column: 1 / -1;
 
         height: 100vh;
         width: 100%;
+
+        background: linear-gradient(#FFFFFF, #B8E1FF);
 
         transition: width 0.3s ease;
 
@@ -152,6 +164,10 @@
 
     .navbar__link {
         justify-content: center;
+    }
+
+    .navbar__logo {
+        width: 15em;
     }
 }
 

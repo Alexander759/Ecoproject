@@ -70,6 +70,12 @@
     color: #226f54;
 }
 
+.biocon-advantages__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .biocon-p-and-n-section {
     min-height: 105vh;
 
@@ -110,53 +116,31 @@
     border: 3px solid #435058;
 }
 
-.mbbr-section {
+.advantages-biocon-p-and-n-section {
     min-height: 100vh;
-    background: linear-gradient(#79e97b, #a7ebb1);
+    background: linear-gradient(#9593D9, #7C90DB);
+    color: #0C1821;
 }
 
-.mbbr-section__heading {
-    color: #3A405A;
+.advantages-biocon-p-and-n-section__heading {
+    color: #0C1821;;
 }
 
-.mbbr-section__hr {
-    border: 1px solid #3A405A;
+.advantages-biocon-p-and-n-section__hr {
+    border: 1px solid #0C1821;;
 }
 
-.mbbr-section__main {
+.advantages-biocon-p-and-n-section__main {
+    color: #0C1821;
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    padding:  2rem;
-
-}
-
-.mbbr-section__text{
-    color: #3A405A;
-
-}
-
-.mbbr-advantages-section {
-    min-height: 100vh;
-    background: linear-gradient(#a5d4ca, #71beaf);
-}
-
-.mbbr-advantages-section__heading {
-    color: #042a2b;
-}
-
-.mbbr-advantages-section__hr {
-    border: 1px solid #042a2b;
-}
-
-
-.mbbr-advantages-section__main {
-    display: grid;
+    padding: 0 2rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.mbbr-advantages-section__text {
-    color: #024042;
+.advantages-biocon-p-and-n-section__gallery-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 992px) {
@@ -172,11 +156,8 @@
     .biocon-p-and-n-section__img  {
         width: 95%;
     }
-    .mbbr-section__main {
-        grid-template-columns: auto;
-    }
 
-    .mbbr-advantages-section__main {
+    .advantages-biocon-p-and-n-section__main {
         grid-template-columns: auto;
     }
 }

@@ -20,9 +20,6 @@ const Services = () => {
 
                 <div className={styles["cleaning-waters__main"]}>
                     <div className={styles["cleaning-waters__text"]}>
-                        <p>
-                            
-                        </p>
                         <ul>
                             <li>
                                 Проектиране и изграждане на пречиствателни станции за битови отпадни води за хотели, ваканционни комплекси, жилищни и офис 
@@ -57,15 +54,15 @@ const Services = () => {
                             </li>
 
                             <li>
-                            Изготвяне на прединвестиционни проучвания във вик сектора и пречистването на водите
+                               Изготвяне на прединвестиционни проучвания във вик сектора и пречистването на водите
                             </li>
 
                             <li>
-                            Доставка и монтаж на оборудване за пречиствателни станции
+                                Доставка и монтаж на оборудване за пречиствателни станции
                             </li>
 
                             <li>
-                            Упражняване авторски надзор при изпълнението
+                                Упражняване авторски надзор при изпълнението
                             </li>
 
                             <li>
@@ -82,7 +79,7 @@ const Services = () => {
                         </ul>
                     </div>
                     
-                    <div className="cleaning-waters__imgs-holder">
+                    <div className={styles["cleaning-waters__gallery-holder"]}>
                         <Gallery imgNames ={["24.jpg","25.jpg","26.jpg"]} />
                     </div>
 
@@ -90,14 +87,15 @@ const Services = () => {
             </section>
 
 
-            <section>
-                <Heading title="Допричестване на водите – очаквайте скоро" />
+            <section className={styles["finishing-water-purification-section"]}>
+                <Heading 
+                headingClass={styles["finishing-water-purification-section__heading"]}
+                hrClass={styles["finishing-water-purification-section__hr"]}
+                title="Допричестване на водите – очаквайте скоро"
+                />
 
-                <div>
+                <div className={styles["finishing-water-purification-section__main"]}>
                     <div>
-                        <p>
-
-                        </p>
                         <ul>
                             <li>Индустриални омекотителни инсталации за вода</li>
                             <li>Инсталации за обратна осмоза ултрафилтрация</li>
@@ -108,12 +106,14 @@ const Services = () => {
                 </div>
             </section>
 
-            <section>
-                <Heading title="Възобновяема енергия" />
+            <section className={styles["renewable-energy-section"]}>
+                <Heading
+                headingClass={styles["renewable-energy-section__heading"]}
+                hrClass={styles["renewable-energy-section__hr"]}
+                title="Възобновяема енергия" />
 
-                <div>
+                <div className={styles["renewable-energy-section__main"]}>
                     <div>
-                        <p></p>
                         <ul>
                             <li>Разработване на иновативни решения за оползотворяване на органични неопасни отпадъци с цел производство на ел. енергия</li>
                             <li>Консултиране на клиенти при изготвяне и финансиране на проекти в сферата на енергетиката</li>
