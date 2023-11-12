@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ecoproject/static/css/main.78b35054.css",
-    "main.js": "/Ecoproject/static/js/main.75dc6eca.js",
+    "main.css": "/Ecoproject/static/css/main.81e50745.css",
+    "main.js": "/Ecoproject/static/js/main.fd625120.js",
     "static/js/787.6b963b8a.chunk.js": "/Ecoproject/static/js/787.6b963b8a.chunk.js",
     "static/media/smallLogo.png": "/Ecoproject/static/media/smallLogo.869e76514752953346fe.png",
     "index.html": "/Ecoproject/index.html",
-    "main.78b35054.css.map": "/Ecoproject/static/css/main.78b35054.css.map",
-    "main.75dc6eca.js.map": "/Ecoproject/static/js/main.75dc6eca.js.map",
+    "main.81e50745.css.map": "/Ecoproject/static/css/main.81e50745.css.map",
+    "main.fd625120.js.map": "/Ecoproject/static/js/main.fd625120.js.map",
     "787.6b963b8a.chunk.js.map": "/Ecoproject/static/js/787.6b963b8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78b35054.css",
-    "static/js/main.75dc6eca.js"
+    "static/css/main.81e50745.css",
+    "static/js/main.fd625120.js"
   ]
 }
