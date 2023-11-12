@@ -133,8 +133,11 @@
 .advantages-biocon-p-and-n-section__main {
     color: #0C1821;
     display: grid;
-    padding: 0 2rem;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.advantages-biocon-p-and-n-section__text {
+    padding: 1rem 2rem;
 }
 
 .advantages-biocon-p-and-n-section__gallery-holder {

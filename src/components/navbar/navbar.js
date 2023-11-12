@@ -28,9 +28,9 @@ const Navbar = (props) => {
 	return (
 		<nav className={`${styles["navbar"]}${props.className ? ` ${props.className}` : ""}`}>
 			<div className={styles["navbar__logo-holder"]}>
-				<a href="/">
+				<NavLink to="/">
 					<img className={styles["navbar__logo"]} src="./images/logo.png" alt="logo" />
-				</a>
+				</NavLink>
 			</div>
 
 			<button onClick={toggleMenu} className={styles["navbar__toggle-menu"]}>

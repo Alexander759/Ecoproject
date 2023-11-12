@@ -218,7 +218,7 @@ const Solutions = () => {
 				/>
 
 				<div className={styles["advantages-biocon-p-and-n-section__main"]}>
-					<div>
+					<div className={styles["advantages-biocon-p-and-n-section__text"]}>
 						<ul>
 							<li>Висока степен на пречистване</li>
 							<li>Компактни размери на съоръжението</li>
