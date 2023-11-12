@@ -177,16 +177,17 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem 3rem;
     min-height: 100vh;
     background: linear-gradient(#b8c9f9, #95befb);
     color: #102951;
+    padding: 0.5em;
 
 }
 
 .mbr-mbbr-section__description {
     display: flex;
     flex-direction: column;
+    padding: 1rem 2rem;
 }
 
 .mbr-mbbr-section__heading {
@@ -293,7 +294,6 @@
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
 
-    padding: 2rem 1rem;
 }
 
 .completed-projects-section__description {
@@ -301,6 +301,8 @@
     flex-direction: column;
 
     color: #393748;
+    padding: 2rem 1rem;
+
 }
 
 .completed-projects-section__heading {
@@ -382,6 +384,10 @@
 
     .solutions-section__img-holder {
         order: 1;
+    }
+
+    .mbr-mbbr-section {
+        grid-template-columns: auto;
     }
 
     .services-section {

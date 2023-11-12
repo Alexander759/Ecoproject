@@ -15,6 +15,9 @@
 .mbr-technology-section__main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.mbr-technology-section__text {
     padding: 1rem 2rem;
 }
 
@@ -44,6 +47,10 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.mbr-advantages-section__text {
+    padding: 1rem 2rem;
+}
+
 .mbr-advantages-section__gallery-holder {
     display: flex;
     align-items: center;
@@ -68,11 +75,12 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    padding:  2rem;
+    
 }
 
 .mbbr-section__text{
     color: #3A405A;
+    padding: 2rem;
 }
 
 .mbbr-section-imgs-holder {
@@ -94,15 +102,14 @@
     border: 1px solid #042a2b;
 }
 
-
 .mbbr-advantages-section__main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem 2rem;
 }
 
 .mbbr-advantages-section__text {
     color: #024042;
+    padding: 1rem 2rem;
 }
 
 .mbbr-advantages-section__gallery-holder {
@@ -137,11 +144,11 @@
 .mbr-and-mbbr-section__main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem 2rem;
 }
 
 .mbr-and-mbbr-section__text {
     color: #05668D;
+    padding: 1rem 2rem;
 }
 
 .mbr-and-mbbr-section__gallery-holder {

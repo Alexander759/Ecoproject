@@ -256,7 +256,7 @@ const MBRAndMBBR = () => {
                 />
 
                 <div className={styles["mbr-technology-section__main"]}>
-                    <div>
+                    <div className={styles["mbr-technology-section__text"]}>
                         <p>
                             MBR (Membrane Bioreactor) технологията за пречистване на отпадни води
                             представлява иновативен и напреднал метод, който комбинира биологичен процес за
@@ -299,7 +299,7 @@ const MBRAndMBBR = () => {
                 title="Предимства на MBR технологията" />
 
                 <div className={styles["mbr-advantages-section__main"]}>
-                    <div>
+                    <div className={styles["mbr-advantages-section__text"]}>
                         <ul>
                             <li>Висока ефективност при пречистване: MBR системите премахват почти всички замърсители,
                                 включително бактерии, вируси и твърди частици, предоставяйки изключително чиста вода.
@@ -394,13 +394,6 @@ const MBRAndMBBR = () => {
                 title="Предимства на комбинацията MBBR и MBR технологии" />
                 <div className={styles["mbr-and-mbbr-section__main"]}>
                     <div className={styles["mbr-and-mbbr-section__text"]}>
-                        {/* <p>
-                            Комбинирането на MBBR (Moving Bed Biofilm Reactor) и MBR (Membrane Bioreactor) технологиите за пречистване
-                            на отпадни води представлява иновативен и изключително ефективен подход за обработка на отпадни води. Тази
-                            комбинация съчетава предимствата на биологичната обработка с активни биофилм носители от MBBR и фината
-                            филтрация на MBR мембраните, предоставяйки надеждно и висококачествено пречистване на водата. Ето защо
-                            тази комбинация е толкова мощна и широко приложима.
-                        </p> */}
                         <ul>
                             <li>
                                 Изключителна ефективност при биологичната обработка: MBBR технологията въвежда подвижни 

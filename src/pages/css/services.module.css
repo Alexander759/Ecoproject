@@ -16,11 +16,11 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
 }
 
 .cleaning-waters__text {
     color: #2a4747;
+    padding: 1rem 2rem;
 }
 
 .cleaning-waters__gallery-holder {
@@ -46,7 +46,10 @@
 .finishing-water-purification-section__main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
+}
+
+.finishing-water-purification-section__text {
+    padding: 1rem 2rem;
 }
 
 .renewable-energy-section {
@@ -66,7 +69,10 @@
     color: #263D42;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
+}
+
+.renewable-energy-section__text {
+    padding: 1rem 2rem;
 }
 
 @media only screen and (max-width: 992px) {

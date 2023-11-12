@@ -10,8 +10,6 @@ const Services = () => {
         <>
         <Navbar />
         <main>
-            {/* <Heading title="Услуги" /> */}
-
             <section className= {styles["cleaning-waters"]}>
                 <Heading
                 headingClass={styles["cleaning-waters__heading"]}
@@ -95,7 +93,7 @@ const Services = () => {
                 />
 
                 <div className={styles["finishing-water-purification-section__main"]}>
-                    <div>
+                    <div className={styles["finishing-water-purification-section__text"]}>
                         <ul>
                             <li>Индустриални омекотителни инсталации за вода</li>
                             <li>Инсталации за обратна осмоза ултрафилтрация</li>
@@ -113,7 +111,7 @@ const Services = () => {
                 title="Възобновяема енергия" />
 
                 <div className={styles["renewable-energy-section__main"]}>
-                    <div>
+                    <div className={styles["renewable-energy-section__text"]}>
                         <ul>
                             <li>Разработване на иновативни решения за оползотворяване на органични неопасни отпадъци с цел производство на ел. енергия</li>
                             <li>Консултиране на клиенти при изготвяне и финансиране на проекти в сферата на енергетиката</li>

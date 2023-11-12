@@ -14,7 +14,6 @@ const Home = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			// Check the window's scroll position
 			if (window.scrollY > 0) {
 			setIsScrolled(true);
 			} else {
